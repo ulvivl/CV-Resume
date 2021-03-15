@@ -1,1 +1,5 @@
-
+name: 'CV-Resume'    
+description: 'Writing a CV'    
+runs:    
+  using: 'docker'    
+  image: 'Dockerfile' 
