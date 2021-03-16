@@ -6,6 +6,6 @@ jobs:
     name: Convertion to pdf
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v1
     - name: Make pdf
       uses: ./
