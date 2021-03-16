@@ -1,5 +1,5 @@
 name: 'CV-Resume'    
-description: 'Writing a CV'    
+description: 'Running docker'    
 runs:    
   using: 'docker'    
   image: 'Dockerfile' 
