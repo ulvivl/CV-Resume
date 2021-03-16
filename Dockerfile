@@ -14,5 +14,5 @@ RUN apt-get update && apt-get install --yes --no-install-recommends \
     texlive-generic-extra \
     texlive-bibtex-extra
 COPY CV/ /CV/
-ENTRYPOINT cd /CV/; pdflatex -interaction=nonstopmode main.tex || exit 0
+ENTRYPOINT cd /CV/; pdflatex -interaction=nonstopmode main.tex
 
