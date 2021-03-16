@@ -13,6 +13,6 @@ RUN apt-get update && apt-get install --yes --no-install-recommends \
     cm-super \
     texlive-generic-extra \
     texlive-bibtex-extra
-COPY tex_dir/ /resume/
-ENTRYPOINT cd /resume/; pdflatex -interaction=nonstopmode main.tex
+COPY CV/ /resume/
+ENTRYPOINT cd /CV/; pdflatex -interaction=nonstopmode main.tex
 
